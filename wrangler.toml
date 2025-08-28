@@ -1,3 +1,9 @@
+# 必填：Pages 项目名（与 Cloudflare Pages 控制台里的项目名一致）
+name = "nextchat-7n3"
+
+# Node 兼容
 compatibility_date = "2024-09-01"
 compatibility_flags = ["nodejs_compat", "nodejs_compat_populate_process_env"]
+
+# next-on-pages 产物目录
 pages_build_output_dir = ".vercel/output/static"
